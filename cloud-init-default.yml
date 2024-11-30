@@ -1,0 +1,11 @@
+#cloud-config
+
+package_upgrade: true
+
+packages:
+  - wireguard
+  - wireguard-tools
+  - ndppd
+  - ufw
+  - python3-jinja2
+  - python3-yaml
